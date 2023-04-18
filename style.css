@@ -1,0 +1,68 @@
+
+body{
+    background-color:yellow;
+    text-align: center;
+    background-image:url(./images/this\ is\ the\ one.webp);
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+/* 1st picture */
+img {
+    width: 20%;
+    border-radius:5%;
+    border: 5px solid red;
+    
+}
+
+/* 2nd picture */
+img{
+    width: 20%;
+    border-radius:5%;
+    border: 5px solid red;
+
+}
+/* Title */
+.heading {
+    color: black;
+
+    }
+
+
+/* caption */
+.sub {
+    color: blue;
+}
+/* First link */
+a.one:link{
+    text-decoration:none ;
+    color: brown;
+}
+a.one:visited{
+    color:brown ;
+}
+/* Second link */
+a.two:link{
+
+    text-decoration:none;
+    color: brown;
+}
+a.two:visited{
+    color: brown;
+}
+/* Third link */
+a.three:link{
+    text-decoration:none;
+    color:brown;
+}
+a.three:visited{
+    color:brown;
+}
+
+#secondpage {
+    background-image:url(
+        ./images/swimming.gif
+    );
+    background-repeat: no-repeat;
+    background-size:cover;
+}
