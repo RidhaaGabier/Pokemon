@@ -2,7 +2,7 @@
 body{
     background-color:yellow;
     text-align: center;
-    background-image:url(./images/this\ is\ the\ one.webp);
+    background-image:url("../images/this is the one.webp");
     color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -60,9 +60,30 @@ a.three:visited{
 }
 
 #secondpage {
-    background-image:url(
-        ./images/swimming.gif
+    background-image: url(
+        ../images/swimming.gif
     );
     background-repeat: no-repeat;
     background-size:cover;
+}
+footer{
+
+    background:brown ;
+}
+
+.footer-icon{
+    width: 1em;
+}
+.footer-link{
+    position: relative;
+}
+.footer-link::after {
+    content: attr(data-name);
+    position:absolute;
+    top: -50p;
+    left: 0;
+    z-index: 20;
+    background-color:red;
+
+
 }
